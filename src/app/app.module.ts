@@ -7,6 +7,7 @@ import { TwoComponent } from './two/two.component';
 import { OneComponent } from './one/one.component';
 import { ThreeComponent } from './three/three.component';
 import { InstaComponent } from './insta/insta.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InstaComponent } from './insta/insta.component';
     TwoComponent,
     OneComponent,
     ThreeComponent,
-    InstaComponent
+    InstaComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
